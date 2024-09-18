@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     auth_bearer_token: str
 
     class Config:
-        env_file = ".env"
+        env_file = "../.env"
         env_file_encoding = "utf-8"
 
 
