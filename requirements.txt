@@ -1,0 +1,9 @@
+SQLAlchemy==1.4.25
+python-dotenv==0.19.0
+psycopg2-binary==2.9.1
+loguru==0.5.3
+pydantic==1.8.2
+requests==2.26.0
+alembic==1.7.3
+SQLAlchemy-Utils==0.37.8
+aiohttp==3.9.5
