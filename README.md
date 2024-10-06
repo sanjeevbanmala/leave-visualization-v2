@@ -43,11 +43,9 @@ python main.py
 ```
 docker build -t my-streamlit-app .
 docker run -p 8501:8501 my-streamlit-app
-
 ```
 - Locally
 
-```
 ```
 pip install -r requirements.txt
 streamlit run Home.py --server.runOnSave True
