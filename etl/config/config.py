@@ -11,9 +11,10 @@ class Settings(BaseSettings):
     db_host_name: str
     source_api_endpoint: str
     auth_bearer_token: str
+    flask_api_endpoint: str
 
     class Config:
-        env_file = "../.env"
+        env_file = ".env"
         env_file_encoding = "utf-8"
 
 

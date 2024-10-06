@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  pipeline:
+    build:
+      context: .
+    ports:
+      - "7000:7000"
+    environment:
+      - DB_HOST_NAME=${DB_HOST_NAME}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - DB_PORT=${DB_PORT}
+      - SOURCE_API_ENDPOINT=${SOURCE_API_ENDPOINT}
+      - AUTH_BEARER_TOKEN=${AUTH_BEARER_TOKEN}
+      - FLASK_API_ENDPOINT=${FLASK_API_ENDPOINT}
